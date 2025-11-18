@@ -1,0 +1,42 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---- Virtual Environment ----
+.venv/
+env/
+venv/
+
+# ---- Environment Files ----
+.env
+.env.local
+.env.*.local
+
+# ---- Editor Files ----
+.vscode/
+.idea/
+*.swp
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+logs/
+*.log
+
+# ---- RAG Vector Store ----
+vectorstore/
+chroma/
+chroma_db/
+
+
+# ---- FastAPI Cache ----
+.cache/
+
+# ---- Build / Dist ----
+build/
+dist/
+
