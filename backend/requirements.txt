@@ -1,17 +1,33 @@
 fastapi
-uvicorn
-python-dotenv
+uvicorn[standard]
 
+python-dotenv
+pydantic
+pydantic-settings
+
+# JWT
+python-jose
+
+# For File Uploads
+python-multipart
+
+# Redis Cache (optional but you used it)
+redis
+
+# LangChain Core + OpenAI + Chroma
 langchain
 langchain-core
-langchain-community
 langchain-openai
-langchain-text-splitters
+langchain-chroma
 
-chromadb
+# Vector DB embedding + documents
+langchain-community
 
-pypdf2
-docx2txt
+# PDF Processing
+pypdf
 
-jwt
+# OpenAI official client
+openai
 
+# Utilities
+tqdm
